@@ -5,3 +5,34 @@
         width: 100%;
     }
 }
+
+/* RESPONSIVE MOBILE */
+
+@media screen and (max-width:480px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-right,
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .container {
+        padding: 3rem 20px;
+        background-color: black;
+    }
+
+    section.steps.text-center {
+        margin-bottom: 0rem;
+    }
+
+    .why-us {
+        margin-bottom: 0;
+    }
+}
